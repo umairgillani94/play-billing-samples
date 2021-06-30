@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.sample.android.trivialdrivesample;
+package com.dcb.android.trivialdrivesample;
 
-import static com.sample.android.trivialdrivesample.TrivialDriveRepository.SKU_GAS;
-import static com.sample.android.trivialdrivesample.TrivialDriveRepository.SKU_INFINITE_GAS_MONTHLY;
-import static com.sample.android.trivialdrivesample.TrivialDriveRepository.SKU_INFINITE_GAS_YEARLY;
-import static com.sample.android.trivialdrivesample.TrivialDriveRepository.SKU_PREMIUM;
+import static com.dcb.android.trivialdrivesample.TrivialDriveRepository.SKU_GAS;
+import static com.dcb.android.trivialdrivesample.TrivialDriveRepository.SKU_INFINITE_GAS_MONTHLY;
+import static com.dcb.android.trivialdrivesample.TrivialDriveRepository.SKU_INFINITE_GAS_YEARLY;
+import static com.dcb.android.trivialdrivesample.TrivialDriveRepository.SKU_PREMIUM;
 
 import android.app.Activity;
 

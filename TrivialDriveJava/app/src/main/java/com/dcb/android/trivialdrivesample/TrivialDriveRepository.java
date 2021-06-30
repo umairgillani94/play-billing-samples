@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.sample.android.trivialdrivesample;
+package com.dcb.android.trivialdrivesample;
 
 import android.app.Activity;
 import android.util.Log;
@@ -23,9 +23,9 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MediatorLiveData;
 import androidx.lifecycle.Observer;
 
-import com.sample.android.trivialdrivesample.billing.BillingDataSource;
-import com.sample.android.trivialdrivesample.db.GameStateModel;
-import com.sample.android.trivialdrivesample.ui.SingleMediatorLiveEvent;
+import com.dcb.android.trivialdrivesample.billing.BillingDataSource;
+import com.dcb.android.trivialdrivesample.db.GameStateModel;
+import com.dcb.android.trivialdrivesample.ui.SingleMediatorLiveEvent;
 
 import java.util.List;
 import java.util.concurrent.ExecutorService;

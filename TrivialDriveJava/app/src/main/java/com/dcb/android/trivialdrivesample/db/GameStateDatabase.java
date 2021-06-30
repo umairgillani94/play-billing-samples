@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.sample.android.trivialdrivesample.db;
+package com.dcb.android.trivialdrivesample.db;
 
 import androidx.room.Database;
 import androidx.room.RoomDatabase;
