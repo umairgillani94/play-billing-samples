@@ -266,11 +266,11 @@
 
         <variable
             name="billingViewModel"
-            type="com.sample.android.classytaxijava.ui.BillingViewModel" />
+            type="com.dcb.dcbs.classytaxijava.ui.BillingViewModel" />
 
         <variable
             name="subscriptionViewModel"
-            type="com.sample.android.classytaxijava.ui.SubscriptionStatusViewModel" />
+            type="com.dcb.dcbs.classytaxijava.ui.SubscriptionStatusViewModel" />
     </data>
 
 </layout>

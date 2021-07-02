@@ -9,6 +9,13 @@ try {
 
 android {
     signingConfigs {
+        release {
+            storeFile file('/Users/umairgillani/Desktop/dcb')
+            storePassword '123456'
+            keyAlias 'dcb'
+            keyPassword '123456'
+        }
+
         /* TODO(developer): Configure to sign app with a release key for testing.
         release {
             storeFile file('path/to/release/signing/key')
@@ -43,6 +50,8 @@ android {
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            debuggable true
+            signingConfig signingConfigs.release
             // TODO(developer): uncomment below once config above is complete and uncommented.
             // signingConfig signingConfigs.release
         }
